@@ -41,7 +41,6 @@
     height: 98px;
     list-style: none;
     margin-right: 50px;
-    height: 98px;
     max-width: 240px;
     font-weight: 400;
     font-size: 18px;
@@ -139,6 +138,7 @@
 /* ─────────── LOTS ─────────── */
 .lots {
   margin: 180px auto;
+  margin-bottom: 120px;
   max-width: 1052px;
 }
 
