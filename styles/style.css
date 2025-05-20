@@ -46,9 +46,8 @@
     font-size: 18px;
     line-height: 24.3px;
     letter-spacing: 0;
-    justify-self: end;  
-}
-
+    justify-self: end;   /* &larr; точка с запятой обязательно! */
+}                     /* &larr; скобка на новой строке */
 .header__address_tel,
 .header__address_mail {
   color: #000;
