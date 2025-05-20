@@ -16,7 +16,7 @@
   display: flex;
   margin-left: 50px;
   list-style: circle;
-  gap: 12.52px;
+  gap: 31.48px;
   font-weight: 400;
   font-size: 18px;
   line-height: 100%;
@@ -37,15 +37,17 @@
 }
 
 .header__address {
-  list-style: none;
-  margin-left: 184px;
-  height: 98px;
-  max-width: 240px;
-  font-weight: 400;
-  font-size: 18px;
-  line-height: 24.3px;
-  letter-spacing: 0;
-  justify-self: end;          /* оставляем один вариант */
+    width: 240px;
+    height: 98px;
+    list-style: none;
+    margin-right: 50px;
+    height: 98px;
+    max-width: 240px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24.3px;
+    letter-spacing: 0;
+    justify-self: end;  
 }
 
 .header__address_tel,
@@ -70,32 +72,37 @@
 }
 
 .cover__title {
-  position: relative;
-  z-index: 1;
-  margin: 165px 50px 106px;
-  font-weight: 700;
-  font-size: 100px;
-  line-height: 115%;
-  letter-spacing: 0.3em;
-  text-transform: uppercase;
-  height: 385px;
+    position: relative;
+    z-index: 1;
+    margin-top: 165px;
+    margin-bottom: 106px;
+    font-weight: 700;
+    font-size: 100px;
+    line-height: 115%;
+    letter-spacing: 0.3em;
+    text-transform: uppercase;
+    height: 385px;
+    width: 100%;
 }
 
 .aligned-text {
-  display: block;
-  text-align: left;
+    display: block;
+    margin-left: 50px;
+    justify-content: start;
 }
 
 .aligned-text_center {
   display: block;
-  text-align: center;
   margin-top: 20px;
+  justify-content: center;
+  margin-left: 380.5px;
 }
 
 .aligned-text_right {
   display: block;
-  text-align: right;
   margin-top: 20px;
+  justify-content: end;
+  margin-left: 663px;
 }
 
 .description {
@@ -112,9 +119,9 @@
   font-weight: 400;
   font-size: 22px;
   line-height: 28px;
-  letter-spacing: 2.81px;
   text-transform: uppercase;
   margin-right: 107px;
+  word-spacing: 18.5px;
 }
 
 .bet-button {
@@ -184,7 +191,7 @@
 }
 
 .card__text {
-  margin: 0 0 40px 40px;
+  margin: 0 0 48px 40px;
   max-width: 254px;
   font-weight: 400;
   font-size: 20px;
@@ -213,6 +220,8 @@
   text-decoration: underline;
   text-transform: lowercase;
   color: #000;
+  font-size: 19px;
+  letter-spacing: .5px;
 }
 
 /* ─────────── ABOUT ─────────── */
@@ -226,8 +235,7 @@
 }
 
 .about__column_1 {
-  display: flex;
-  flex-direction: column;
+  align-self: start;
   margin: 35px 0 0 47px;
   max-width: 240px;
 }
