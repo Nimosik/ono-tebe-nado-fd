@@ -298,7 +298,7 @@
   width: 100%;
   margin: 180px auto 0;
   align-items: start;
-  margin-bottom: 0;
+  padding-bottom: 82px;
 }
 
 .footer__address {
